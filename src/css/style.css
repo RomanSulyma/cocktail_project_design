@@ -416,6 +416,7 @@ input[type="text"]:hover, input[type="email"]:hover {
 
 footer {
     background-color: #A9A9A9;
+    color: #F5F5F5;
 }
 
 .footer-list li {
@@ -425,7 +426,6 @@ footer {
 
 .nav {
     float: left;
-    color: #d58c05;
 }
 
 .nav li {
@@ -439,7 +439,6 @@ footer {
 
 .icons {
     float: right;
-    color: #F5F5F5;
 }
 
 .icons li {
