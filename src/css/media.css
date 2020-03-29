@@ -1,0 +1,40 @@
+
+@media only screen and (max-width: 1200px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    .row {
+        width: 1000px;
+    }
+
+    .image-block {
+        width: 24.6%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .row {
+        width: 750px;
+    }
+
+    .tariffMain {
+        margin: 2px;
+    }
+
+    .secondOfTwo {
+        padding-top: 0;
+    }
+
+    .image-block {
+        width: 24.6%;
+        margin-left: 0;
+    }
+}
