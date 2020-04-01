@@ -19,6 +19,7 @@ header {
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .row {
@@ -26,6 +27,10 @@ ul {
     margin: 0 auto;
 }
 
+.visible {
+    opacity: 1 !important;
+    animation-duration: 2s;
+}
 /*REUSABLE ITEMS*/
 
 .btn {
@@ -89,6 +94,22 @@ header a {
     transform: translate(-50%, -50%);
 }
 
+.fa-times {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10%;
+    font-size: 170%;
+    float: right;
+}
+
+.fa-bars {
+    display: none;
+    position: absolute;
+    margin-top: 2%;
+    font-size: 200%;
+    right: 10%;
+}
+
 /*!*NAVIGATION STICK*!*/
 
 .stick {
@@ -103,7 +124,7 @@ header a {
 }
 
 .stick .headerList {
-    display: block;
+    display: inline-block;
     padding-top: 0;
     margin: 15px;
 }
@@ -111,6 +132,10 @@ header a {
 .stick .headerListItem {
     float: none;
     margin: 0 10px;
+}
+
+.stick .fa-bars {
+   color: #d58c05;
 }
 
 /*INFO STYLES*/
@@ -165,6 +190,11 @@ header a {
 .firstOfTwo , .secondOfTwo {
     display: inline-block;
 }
+
+.firstOfTwo, .tariffBlock {
+    opacity: 0;
+}
+
 
 .firstOfTwo img {
     display: block;

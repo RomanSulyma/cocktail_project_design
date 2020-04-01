@@ -37,4 +37,35 @@
         width: 24.6%;
         margin-left: 0;
     }
+
+    .headerListItem {
+        display: block;
+        margin: 5px;
+        border: 1px solid #d58c05;
+        border-radius: 200px;
+        padding: 10px 10px;
+        float: none;
+        width: 10%;
+    }
+
+    .stick .headerList {
+        display: block;
+        padding-top: 0;
+        margin: 5px 0 20px 0;
+    }
+
+    .stick .headerListItem {
+        float: none;
+        margin-bottom: 6px;
+    }
+
+    .fa-times {
+        font-size: 300%;
+        margin: -12% 5%;
+    }
+
+    .fa-bars {
+        font-size: 300%;
+    }
+
 }
